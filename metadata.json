@@ -1,0 +1,56 @@
+{
+  "name": "WhatsARanjit-share_data",
+  "version": "0.1.0",
+  "author": "WhatsARanjit",
+  "summary": "Share data between nodes instead of exporting resources.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/WhatsARanjit/puppet-share_data",
+  "project_page": "https://github.com/WhatsARanjit/puppet-share_data",
+  "issues_url": "https://github.com/WhatsARanjit/puppet-share_data/issues",
+  "tags": [
+    "share",
+    "data",
+    "share data",
+    "exported resource"
+  ],
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04",
+        "16.06"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.7.1 < 5.0.0"
+    }
+  ],
+  "description": "Share_data module"
+}
